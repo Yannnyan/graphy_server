@@ -1,4 +1,4 @@
-FROM node
+FROM node:23-bookwork-slim
 COPY graphserver.js .
 COPY package.json .
 COPY UScities.json .
